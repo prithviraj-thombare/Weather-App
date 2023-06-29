@@ -10,6 +10,13 @@
     <title>Source Code Of Weather Web App</title>
     <!---------------  IONICONS  --------------------->
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <style>
+        #android-view {
+            width: 100%;
+            height: 600px; /* Adjust the height as needed */
+            border: none;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -18,6 +25,10 @@
         <button id="search"><ion-icon class="icon" name="search"></ion-icon></button>
       </div>
       <div id="show"></div>
+    </div>
+    <div>
+        <!-- Replace "android-app-url" with the URL of your Android view -->
+        <iframe id="android-view" src="android-app-url"></iframe>
     </div>
    <!---------------  SCRIPT  --------------------->
    <script src="script.js"></script>  
